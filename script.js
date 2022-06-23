@@ -15,7 +15,7 @@ function displayPosts(posts) {
         singlePosts.innerHTML = `
         <h1 class="h" > Country Name: ${post.name.common} </h1>
         <p class="p"> Population: ${post.population}</p>
-        <p class="p"> Flag: ${post.flags.png}</p>
+        <p class="p1"><img class="png" src= "${post.flags.png}"></p>
         `;
         postsContainer.appendChild(singlePosts);
 
