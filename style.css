@@ -22,11 +22,8 @@
     text-align: justify;
 }
 .p1{
-    color: rgb(46, 49, 229);
+    color: rgb(0, 1, 10);
     font-size: large;
-    text-align: justify;
-    text-decoration: underline;
-    font-style: italic;
 }
 .btn{
     font-weight: bold;
@@ -36,4 +33,7 @@
     border-radius: 5px;
     padding: 10px;
     margin: 10px;
+}
+.png{
+    width: 40%;
 }
